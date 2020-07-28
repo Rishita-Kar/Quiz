@@ -1,0 +1,76 @@
+body {
+    font-family: 'Rum Raisin', sans-serif;
+    background-image: url("img/ichigo.jpg"); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+form {
+    width: 65%;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    color: #291211;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: orange;
+}
+
+h4 {
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0067b3;
+}
+
+label {
+    display: block;
+    margin-left: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    margin-right: 10px;
+}
+
+input[type='text'] {
+    width: 500px;
+    height: 35px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: none;
+    font-family: inherit;
+    font-size: 25px;
+    color: black;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 75px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #53bb63;
+    font-family: inherit;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: white;
+    border: 2px solid #5dbb63;
+    color: #5dbb63;
+}
